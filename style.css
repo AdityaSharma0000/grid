@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.gridcontain {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(241, 206, 11); */
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    gap: 25px;
+    padding: 30px;
+}
+
+.grid {
+    border-radius: 5px 10px 12px 8px;
+    background-color: white;
+}
+
+.grid:first-child {
+    background-image: url(https://wallpapercave.com/wp/8jGdcG3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:  -15px 15px 30px #a14545,
+    15px -15px 30px #d95d5d;
+}
+
+.grid:nth-child(2) {
+    background-image: url(https://wallpapercave.com/wp/3i6dLrF.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:  -15px 15px 30px #a14545,
+             15px -15px 30px #d95d5d;
+}
+
+.grid:nth-child(3) {
+    background-image: url(https://wallpapercave.com/wp/oIUHA4p.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:  -15px 15px 30px #a14545,
+             15px -15px 30px #d95d5d;
+}
+.grid:nth-child(4){
+    background-image: url(https://wallpapercave.com/uwp/uwp4222760.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:  10px 10px 20px #166494,
+             -10px -10px 20px #26aafc;
+}
+.grid:nth-child(5){
+    background-image: url(https://wallpapercave.com/uwp/uwp4312732.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:  10px 10px 20px #166494,
+             -10px -10px 20px #26aafc;
+}
+.grid:nth-child(6){
+    background-image: url(https://wallpapercave.com/uwp/uwp4228494.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:  10px 10px 20px #166494,
+             -10px -10px 20px #26aafc;
+}
+.grid:first-child:hover{
+    box-shadow:  10px 10px 20px #98831a,
+             -10px -10px 20px #ffdf2c;
+            
+
+}
+.grid:nth-child(2):hover{
+    box-shadow:  10px 10px 20px #98831a,
+    -10px -10px 20px #ffdf2c;
+
+}
+.grid:nth-child(3):hover{
+    box-shadow:  10px 10px 20px #98831a,
+             -10px -10px 20px #ffdf2c;
+
+}
+.grid:nth-child(4):hover{
+    box-shadow:  10px 10px 20px #8d824e,
+             -10px -10px 20px #f1de84;
+}
+.grid:nth-child(5):hover{
+    box-shadow:  10px 10px 20px #8d824e,
+    -10px -10px 20px #f1de84;
+}
+.grid:nth-child(6):hover{
+    box-shadow:  10px 10px 20px #8d824e,
+    -10px -10px 20px #f1de84;
+}
